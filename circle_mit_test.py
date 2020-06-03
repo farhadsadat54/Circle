@@ -9,7 +9,7 @@ def circle_area(r):
     if r < 0:
         raise ValueError("Der Radius ist leider negativ")
     if type(r) not in [int, float]:
-        raise TypeError("Nur Zahleneigabe erlaubt")
+        raise TypeError("Nur Zahleneigabe  erlaubt")
 
     flaeche = pi * (r ** 2)
     return flaeche
